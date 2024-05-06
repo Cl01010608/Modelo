@@ -1,0 +1,5 @@
+import pickle
+
+# Cargar el modelo entrenado
+with open('best_model_SqEr.pkl', 'rb') as f:
+    model = pickle.load(f)
